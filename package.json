@@ -1,0 +1,24 @@
+{
+  "name": "@beyonk/async-script-loader",
+  "version": "1.0.0",
+  "description": "Loads scripts cleanly and asynchronously in SPAs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test-runner.js"
+  },
+  "keywords": [
+    "async",
+    "script",
+    "loader",
+    "js",
+    "client"
+  ],
+  "author": "Antony Jones",
+  "license": "MIT",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "polkadot": "^1.0.0",
+    "pptr-testing-library": "^0.3.2",
+    "puppeteer": "^1.16.0"
+  }
+}
