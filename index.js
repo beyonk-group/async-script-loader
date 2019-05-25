@@ -1,4 +1,4 @@
-export default function (url, test, callback, options = { async = true, defer = true }) {
+export default function (url, test, callback, options = { async: true, defer: true }) {
   if (!test()) {
     const tag = document.createElement('script')
     tag.src = url
