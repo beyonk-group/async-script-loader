@@ -47,6 +47,16 @@ You can use the module like so, for a library loaded from example.com, which, wh
 </script>
 ```
 
+You can pass options for script tags.
+
+```js
+<script>
+  loader([
+    { type: 'script', url, options: { async: true, defer: true } } // these are the default options
+  ], test, callback)
+</script>
+```
+
 #### Style Tags
 
 You can include any number of tags, including style tags.
