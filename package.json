@@ -18,7 +18,7 @@
   "devDependencies": {
     "esm": "^3.2.25",
     "polkadot": "^1.0.0",
-    "pptr-testing-library": "^0.3.2",
-    "puppeteer": "^1.16.0"
+    "pptr-testing-library": "^0.6.4",
+    "puppeteer": "^5.3.1"
   }
 }
