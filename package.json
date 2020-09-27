@@ -3,6 +3,10 @@
   "version": "2.0.0",
   "description": "Loads scripts cleanly and asynchronously in SPAs",
   "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
   "keywords": [
     "async",
     "script",
@@ -11,5 +15,9 @@
     "client"
   ],
   "author": "Antony Jones",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "typescript": "^4.0.3"
+  }
 }
