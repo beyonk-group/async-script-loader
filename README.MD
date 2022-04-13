@@ -8,7 +8,7 @@
 
 ## Async Script Loader
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com) [![CircleCI](https://circleci.com/gh/beyonk-adventures/async-script-loader.svg?style=shield)](https://circleci.com/gh/beyonk-adventures/async-script-loader)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com) 
 
 Allows asynchronous loading of scripts and styles in a Single Page Application (or anything else, in fact):
 
