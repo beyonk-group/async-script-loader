@@ -1,6 +1,6 @@
 {
   "name": "@beyonk/async-script-loader",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Loads scripts cleanly and asynchronously in SPAs",
   "keywords": [
     "async",
