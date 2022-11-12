@@ -84,3 +84,22 @@ When the last one has loaded, the callback will be called.
 ```
 
 No more tears!
+
+#### Inline scripts / Inline css
+
+You can use inline content for either type of tag by passing the configuration attribute `content` *instead* of `url`. This will write the content passed into the tag's body rather than setting it as an `href` or `src` attribute `url` will always take prescidence, so leave it out for `content` to work.
+
+
+```js
+<script>
+  import loader from '@beyonk/async-script-loader'
+
+  loader([
+    { type: 'script', content: 'console.log("foo");' },
+    { type: 'style', content: '* { color: red; }' }
+  ],
+  () => false, // always load
+  () => () // no-op
+)
+</script>
+```
